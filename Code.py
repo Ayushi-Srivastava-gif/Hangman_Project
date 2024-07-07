@@ -1,6 +1,8 @@
 # hangman
 import random
 
+print("Welcomr to the Hangman Game!")
+
 stages = ['''
   +---+
   |   |
@@ -68,7 +70,7 @@ word_length = len(chosen_word)
 lives = 6
 
 #Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+# print(f'Pssst, the solution is {chosen_word}.')
 
 #Create blanks
 display = []
